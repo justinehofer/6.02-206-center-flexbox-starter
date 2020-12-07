@@ -104,6 +104,7 @@ html {
 }
 
 body {
+    height: 100%;
     /* set height to 100% - these are important for allowing content to vertically align */
 }
 
