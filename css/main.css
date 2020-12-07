@@ -40,9 +40,9 @@ html {
 
 hr {
     display: block;
-    height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
+    height: 1px;
     margin: 1em 0;
     padding: 0;
 }
@@ -85,9 +85,9 @@ textarea {
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
     background: #ccc;
     color: #000;
+    margin: 0.2em 0;
     padding: 0.2em 0;
 }
 
@@ -100,40 +100,36 @@ html {
     background: url(../img/bkgd2.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
-   /* set height to 100% - these are important for allowing content to vertically align */
 }
 
 body {
     height: 100%;
-    /* set height to 100% - these are important for allowing content to vertically align */
 }
 
 .wrapper {
-    /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
     align-items: center;
     display: flex;
+    height: 100%;
     justify-content: center;
     margin: 0;
-    height: 100%;
     width: 100%;
 }
 
 #content {
-    /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
     align-items: center;
     background: #222;
     background:rgba(0,0,0,0.7);
+    border-radius: 10px;
     color: #fff;
     display: flex;
+    height: 300px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
     font-size: 1.25em;
+    font-weight: 300;
     justify-content: center;
     line-height: 1.5em;
-    border-radius: 10px;
     padding: 0px 30px;
     width: 300px;
-    height: 300px;
 }
 
 #content p span {
